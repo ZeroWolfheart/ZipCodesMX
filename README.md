@@ -1,26 +1,27 @@
-ZipCodesMX
+<h1>ZipCodesMX</h1>
 
-Este proyecto contiene la informaci髇 brindada por SEPOMEX, los c骴igos postales, estados, municipios y colonias que hay en M閤ico.
+Este proyecto contiene la informaci贸n brindada por SEPOMEX, los c贸digos postales, estados, municipios y colonias que hay en M茅xico.
 
-La informaci髇 se encuentra normalizada en el modelo de base de datos que se encuentra en el proyecto, creado con MySql Workbench.
+La informaci贸n se encuentra normalizada en el modelo de base de datos que se encuentra en el proyecto, creado con MySql Workbench.
 
 El codigo sql fue probado para la base de datos MySql y es conpatible con las versiones 5.5 o superiores.
 
-Contenido:
-
-Codigos-no Normalizados.sql: posee toda la informaci髇 de SEPOMEX, de manera desorganizada, se incluye por si se desea incluir m醩 informaci髇 en el modelo propuesto.
-Tablas normalizadas.sql: contiene el script sql para crear las tablas que contentienen la informaci髇 ya normalizada de los c骴igos postales, entidades y municipios.
-Carpeta dump: Contiene los scripts numerados segun el orden en que deben ser ejecutados para llenar las tablas normalizadas.
-
-El archivo modelo codigos postales.mwb contiene el modelo entidad relaci髇.
+<h3>Contenido:</h3>
+<ul>
+  <li>Codigos-no Normalizados.sql: posee toda la informaci贸n de SEPOMEX, de manera desorganizada, se incluye por si se desea incluir m谩s informaci贸n en el modelo propuesto.</li>
+  <li>Tablas normalizadas.sql: contiene el script sql para crear las tablas que contentienen la informaci贸n ya normalizada de los c贸digos postales, entidades y municipios.</li>
+  <li>Carpeta dump: Contiene los scripts numerados segun el orden en que deben ser ejecutados para llenar las tablas normalizadas.</li>
+</ul>
+El archivo modelo codigos postales.mwb contiene el modelo entidad relaci贸n.
 
 En total contiene 145908 registros.
 
-Uso:
+<h3>Uso:</h3>
 
 Dentro de la base de datos a utilizar ejecutar los scripts en el siguiente orden:
-
-Ejecutar Tablas normalizadas.sql
-Ejecutar 1cat_estados-data.sql
-Ejecutar 2cat_municipios-data.sql
-Ejecutar 3cat_cp-data.sql
+<ol>
+  <li>Ejecutar Tablas normalizadas.sql</li>
+  <li>Ejecutar 1cat_estados-data.sql</li>
+  <li>Ejecutar 2cat_municipios-data.sql</li>
+  <li>Ejecutar 3cat_cp-data.sql</li>
+</ol>
